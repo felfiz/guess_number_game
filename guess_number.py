@@ -22,5 +22,5 @@ def guess_game():
         else:
           print('The number is lesser than {}'.format(secret_number))
   else:
-    print("Sorry you lose :(")
+    print("Sorry you lose :( . My number was {}".format(right_number))
 guess_game()
