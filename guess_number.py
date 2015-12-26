@@ -18,9 +18,9 @@ def guess_game():
         break
       else:
         if guess_number < secret_number:
-          print('The number is greater than {}'.format(guess_number))
+          print('The number is higher than {}'.format(guess_number))
         else:
-          print('The number is lesser than {}'.format(guess_number))
+          print('The number is lower than {}'.format(guess_number))
   else:
     print("Sorry you lose :( . My number was {}".format(secret_number))
 guess_game()
