@@ -5,7 +5,7 @@ def guess_game():
   guesses = []
 
   while len(guesses) < 3:
-    print("Guess the number... ")
+    print("Guess a number between 1 and 10")
     try:
       secret_number = int(input("> "))
     except ValueError:
