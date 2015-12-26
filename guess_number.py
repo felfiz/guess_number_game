@@ -23,9 +23,7 @@ def guess_game():
           print('The number is lower than {}'.format(guess_number))
   else:
     print("Sorry you lose :( . My number was {}".format(secret_number))
-    play_again = str(raw_input(
-"""Wanna play again? If yes press Y, if not press N
-"""))
+    play_again = str(raw_input("Do you want to play again? Y/n "))
 
     if play_again == "Y":
       guess_game()
