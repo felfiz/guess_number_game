@@ -9,4 +9,7 @@ while True:
   if try_number == right_number:
     print("You got it :)")
   else:
-    print('You Fail! Try again')
+    if try_number < right_number:
+      print('The number is greater than {}'.format(try_number))
+    else:
+      print('The number is lesser than {}'.format(try_number))
